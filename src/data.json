@@ -1,0 +1,104 @@
+{
+	"title": "OU Robotics Club",
+  "semester": "Activities Fall 2015",
+	"semesterEventInfo": "6:00 PM - 7:30 PM in Carson 441 starting August 2015",
+	"year": "2015-2016",
+  "events1": [
+    {
+      "title" : "WEEK 1 - SEPT. 7TH: LEGO MINDSTORMS",
+      "byline" : "Plus, Intro to OURC",
+      "presenter": "OURC President",
+			"link": ""
+    },
+    {
+      "title" : "Week 2 - Sept. 21st: Analog Electronics",
+      "byline" : "",
+      "presenter": "Clair Malaby",
+			"link": ""
+    },
+    {
+      "title" : "Week 3 - Sept. 28th: Digital Electronics",
+      "byline" : "",
+      "presenter": "Kirsten Collins",
+			"link": ""
+    },
+    {
+      "title" : "Week 4 - Oct. 5th: Mircocontrollers",
+      "byline" : "",
+      "presenter": "Shawn Swatek",
+			"link": ""
+    }
+  ],
+	"events2": [
+		{
+			"title" : "Week 5 - Oct. 12th: PCB Design",
+			"byline" : "",
+			"presenter": "Austin Lee",
+			"link": ""
+		},
+		{
+			"title" : "Week 6 - Oct. 19th: Intro to CAD",
+			"byline" : "Solid Works",
+			"presenter": "Matt Walker",
+			"link": ""
+		},
+		{
+			"title" : "Week 7 - Oct 26th",
+			"byline" : "",
+			"presenter": "TBD",
+			"link": ""
+		},
+		{
+			"title" : "Week 8 - Nov. 2nd",
+			"byline" : "",
+			"presenter": "TBD",
+			"link": ""
+		}
+	],
+	"events3": [
+		{
+			"title" : "Week 9 - Nov. 9th",
+			"byline" : "",
+			"presenter": "TBD",
+			"link": ""
+		},
+		{
+			"title" : "Week 10 - Nov. 16th",
+			"byline" : "",
+			"presenter": "TBD",
+			"link": ""
+		},
+		{
+			"title" : "Week 11 - Nov 30th: EoS Party",
+			"byline" : "",
+			"presenter": "OURC Officers",
+			"link": ""
+		}
+	],
+	"officers": [
+		{
+			"name": "Bill Bonner",
+			"pos": "President",
+			"img": "images/bill.jpg",
+			"html": "./bill.html"
+		},
+		{
+			"name": "Josh Birdwell",
+			"pos": "Vice President",
+			"img": "images/Josh.png",
+			"html": "./josh.html"
+		},
+		{
+			"name": "Geoff Page",
+			"pos": "Secretary",
+			"img": "images/geoffrey.jpg",
+			"html": "./geoffry.html"
+		},
+		{
+			"name": "Patrick Searcey",
+			"pos": "Treasurer",
+			"img": "images/patrick.jpg",
+			"html": "./patrick.html"
+		}
+	]
+}

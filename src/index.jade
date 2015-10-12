@@ -1,0 +1,78 @@
+doctype html
+- var eventIcon = ['fa.fa-cogs', 'fa.fa-wrench','fa.fa-leaf']
+
+html
+  head
+    include ./includes/head.jade
+  body.homepage
+    // Header & Banner
+    .wrapper.style1
+      #header
+        include ./includes/header.jade
+      #banner
+        section.container
+          h2 #{title}
+          span
+    // Events
+    .wrapper.style4
+      section.container
+        header.major
+          h2  #{semester}
+          span.byline #{semesterEventInfo}
+        // Weeks
+        .row.flush
+          .4u.firstCol
+            ul.special-icons
+              each event in events1
+                li
+                  span.fa.fa-cogs
+                  if event.link
+                    a(href=event.link)
+                      h3 #{event.title}
+                  else if event.link == ''
+                    h3 #{event.title}
+                  p #{event.byline}
+                  if event.presenter != ''
+                    p Presenter: #{event.presenter}
+          .4u.secondCol
+            ul.special-icons 
+              each event in events2
+                li
+                  span.fa.fa-cogs
+                  if event.link
+                    a(href=event.link)
+                      h3 #{event.title}
+                  else if event.link == ''
+                    h3 #{event.title}
+                  p #{event.byline}
+                  if event.presenter != ''
+                    p Presenter: #{event.presenter}
+          .4u.thirdCol
+            ul.special-icons
+              each event in events3
+                li
+                  span.fa.fa-cogs
+                  if event.link
+                    a(href=event.link)
+                      h3 #{event.title}
+                  else if event.link == ''
+                    h3 #{event.title}
+                    if event.presenter != ''
+                      p Presenter: #{event.presenter}
+    // Signup
+    include ./includes/mailchimp.jade
+    // Team
+    .wrapper.style5
+      section#team.container
+        header.major
+          h2 Officers
+          span.byline #{year}
+        .row
+          each officer in officers
+            .3u
+              a.image(href=officer.html)
+                img(src=officer.img, alt='')
+              h3 #{officer.name}
+              p #{officer.pos}
+    #footer
+      include ./includes/footer.jade

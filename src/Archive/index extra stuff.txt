@@ -1,0 +1,76 @@
+<li>
+										<a href="">Dropdown</a>
+										<ul>
+											<li><a href="#">About Us</a></li>
+											<li><a href="#">Officers 2014-2015</a></li>
+											<li><a href="#">Information</a></li>
+											<li>
+												<a href="">More Information</a>
+												<ul>
+													<li><a href="#">A</a></li>
+													<li><a href="#">B</a></li>
+													<li><a href="#">C</a></li>
+													<li><a href="#">D</a></li>
+													<li><a href="#">E</a></li>
+												</ul>
+											</li>
+											<li><a href="#">Veroeros feugiat</a></li>
+										</ul>
+									</li>
+									<li><a href="left-sidebar.html">Past Lectures</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">News</a></li>
+								</ul>
+								
+								
+								<div class="6u">
+							<h3>Suspendisse dictum porta</h3>
+							<p>Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. Vestibulum imperdiet, magna nec eleifend semper augue mattis wisi maecenas ligula nunc lectus vestibulum euismod lacinia quam nisl.</p>
+							<a href="#" class="button">Nulla aluctus eleifend</a>
+						</div>
+						
+						
+							<!-- Footer -->
+		<div id="footer">
+			<section class="container">
+				<header class="major">
+					<h2>Connect with us</h2>
+					<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>
+				</header>
+				<ul class="icons">
+					<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+					<li><a href="#" class="fa fa-dribbble"><span>Pinterest</span></a></li>
+					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+				</ul>
+				<hr />
+			</section>
+			
+			
+					<!-- Section Two -->
+			<div class="wrapper style3">
+				<section class="container">
+					<header class="major">
+						<h2>News</h2>
+					</header>
+					<p></p>
+					<a href="#" class="button alt">Read More</a>
+				</section>
+			</div>
+			
+			
+			
+				<!-- Section One -->
+			<div class="wrapper style2">
+				<section class="container">
+					<div class="row flush">
+						<div class="6u">
+							<header class="major">
+								<h2>Robotics Club exists for learning and teaching about robotics concepts through experience</h2>
+								<span class="byline"></span>
+							</header>
+						</div>
+						
+					</div>
+				</section>
+			</div>
